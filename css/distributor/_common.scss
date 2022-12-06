@@ -1,6 +1,6 @@
 :root{
-    --PrimaryColor: #fa2964;
-    --SecondaryColor: #060c17;
+    --PrimaryColor: #ee4f27;
+    --SecondaryColor: #112c41;
     --whiteColor: #f8f9ff;
     --OffWhiteColor: #f2f4ff;
     --body-fonts-color: #787780;
@@ -74,6 +74,14 @@ p{
     &.white{
         color: var(--OffWhiteColor);
         border-color: var(--OffWhiteColor);
+        &:hover{
+            border-color: var(--PrimaryColor);
+        }
+    }
+    &.primary{
+        color: var(--OffWhiteColor);
+        border-color: var(--PrimaryColor);
+        background-color: var(--PrimaryColor);
         &:hover{
             border-color: var(--PrimaryColor);
         }

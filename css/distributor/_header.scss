@@ -57,10 +57,10 @@ header{
         position: absolute;
         top: 0;
         left: 0;
-        background-color: var(--PrimaryColor);
+        background-color: #fff;
         img{
             display: block;
-            width: 70%;
+            width: 80%;
         }
     }
     .manu_area{
@@ -179,9 +179,12 @@ header{
                     li{
                         a{
                             padding: 0 2rem !important;
-                           span{
-                            display: none;
-                           } 
+                            i{
+                                margin-right: 0;
+                            }
+                            span{
+                                display: none;
+                            } 
                         }
                        
                     }
@@ -201,7 +204,7 @@ header{
 @media only screen and (max-width:500px){
     header {
         .logo{
-            width: 9.2rem;
+            width: 23.2rem;
             height: 9rem;
             margin: 10px 0 10px 10px;
         }

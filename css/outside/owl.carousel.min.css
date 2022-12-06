@@ -259,10 +259,10 @@
 }
 
 .owl-dots .owl-dot span {
-    width: 14px;
-    height: 14px;
+    width: 10px;
+    height: 10px;
     margin: 5px 2.5px;
-    background: #bcbbbb;
+    background: #eef3f4;
     display: block;
     -webkit-backface-visibility: visible;
     transition: opacity .2s ease;
@@ -271,9 +271,9 @@
 
 .owl-dots .owl-dot.active span,
 .owl-dots .owl-dot:hover span {
-    background: #fd864b;
+    background: var(--PrimaryColor);
 }
 
 .owl-dots .owl-dot.active span {
-    width: 46px !important;
+    width: 32px !important;
 }

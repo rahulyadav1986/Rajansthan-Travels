@@ -30,6 +30,24 @@ jQuery('#hero-carousel').owlCarousel({
     }
 });
 
+jQuery('#testi-carousel').owlCarousel({
+    loop:false,
+    margin:0,
+    nav:false,
+	dots:true,	
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+
 
 
 // Add minus icon for collapse element which is open by default
